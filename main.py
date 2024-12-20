@@ -1,4 +1,7 @@
-x = int(input("Enter the First number: "))
-y = int(input("Enter the Second number: "))
+def start():
+    z = input("Enter the type: ")
+    x = int(input("Enter the First number: "))
+    y = int(input("Enter the Second number: "))
+    print(x + y)
 
-print(x + y)
+start()
